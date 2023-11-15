@@ -18,13 +18,13 @@ Projetos #boraCodar da Rocketseat
           <td>01</td>
           <td>Music Player</td>
           <td>14/11/2023</td>
-          <td><a href="01 - Player de Música"></a></td>
+          <td><a href="01-player-music"></a></td>
         </tr>
         <tr>
           <td>02</td>
           <td>Product Card</td>
           <td>15/11/2023</td>
-          <td><a href="02 - Card de Produto"></a></td>
+          <td><a href="02-card-product">🔗</a></td>
         </tr>
       </tbody>
     </table>
