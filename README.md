@@ -19,8 +19,7 @@ Projetos #boraCodar da Rocketseat
           <td>Music Player</td>
           <td>13/11/2023</td>
           <td><img src="./assets/01.jpg" alt=""> </td> 
-          <td><a target="_blank" href="https://helena-antoni.github.io/bora-codar/01-player-music/">🔗</a></td>
-          <td>📎</td>
+          <td><a target="_blank" href="https://helena-antoni.github.io/bora-codar/01-player-music/">🔗</a></td> 
         </tr>
         <tr>
           <td>02</td>
