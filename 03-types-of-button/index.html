@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
 
     <link rel="stylesheet" href="style.css" />
 
@@ -25,108 +26,120 @@
         </p>
 
         <table>
-          <tr class="coluna">
+          <tr>
+            <th id="coluna"></th>
             <th>BOTÃO PRIMÁRIO</th>
             <th>BOTÃO SECUNDÁRIO</th>
             <th>BOTÃO TERCEÁRIO</th>
-            <th>CURSOR</th>
+            <th class="cursor">CURSOR</th>
           </tr>
-          <!--<tr class="linha">
-            <th>DEFAULT</th>
-            <th>HOVER</th>
-            <th>FOCUS</th>
-            <th>DISABLED</th>
-            <th>LOADING</th>
-            <th>MOVABLE</th>
-          </tr>-->
 
-          <tr>
+          <tr class="primeira">
+            <th id="coluna">DEFAULT</th>
             <td>
               <button>DEFAULT PRIMARY</button>
             </td>
             <td>
-              <button>DEFAULT SECONDARY</button>
+              <button class="secundary">DEFAULT SECONDARY</button>
             </td>
             <td>
-              <button>DEFAULT TERTIARY</button>
+              <button class="tertiary">DEFAULT TERTIARY</button>
             </td>
-            <td><img src="./assets/cursor-pointer.svg" alt="" /></td>
+            <td class="cursor">
+              <img src="./assets/cursor-pointer.svg" alt="" />
+            </td>
           </tr>
 
           <tr>
+            <th id="coluna">HOVER</th>
             <td>
-              <button>HOVER PRIMARY</button>
+              <button class="primary primary-hover">HOVER PRIMARY</button>
             </td>
             <td>
-              <button>HOVER SECONDARY</button>
+              <button class="secundary secundary-hover">HOVER SECONDARY</button>
             </td>
             <td>
-              <button>HOVER TERTIARY</button>
+              <button class="tertiary tertiary-hover">HOVER TERTIARY</button>
             </td>
-            <td><img src="./assets/cursor-pointer.svg" alt="" /></td>
+            <td class="cursor">
+              <img src="./assets/cursor-pointer.svg" alt="" />
+            </td>
           </tr>
 
           <tr>
+            <th id="coluna">FOCUS</th>
             <td>
-              <button>FOCUS PRIMARY</button>
+              <button class="primary-focus">FOCUS PRIMARY</button>
             </td>
             <td>
-              <button>FOCUS SECONDARY</button>
+              <button class="secundary secundary-focus">FOCUS SECONDARY</button>
             </td>
             <td>
-              <button>FOCUS TERTIARY</button>
+              <button class="tertiary tertiary-focus">FOCUS TERTIARY</button>
             </td>
-            <td><img src="./assets/cursor-pointer.svg" alt="" /></td>
-          </tr>
-          <tr>
-            <td>
-              <button>DISABLED PRIMARY</button>
+            <td class="cursor">
+              <img src="./assets/cursor-pointer.svg" alt="" />
             </td>
-            <td>
-              <button>DISABLED SECONDARY</button>
-            </td>
-            <td>
-              <button>DISABLED TERTIARY</button>
-            </td>
-            <td><img src="./assets/cursor-disabled.jpg" alt="" /></td>
           </tr>
 
           <tr>
+            <th id="coluna">DISABLED</th>
             <td>
-              <button>
+              <button class="primary disabled">DISABLED PRIMARY</button>
+            </td>
+            <td>
+              <button class="secundary disabled">DISABLED SECONDARY</button>
+            </td>
+            <td>
+              <button class="tertiary disabled">DISABLED TERTIARY</button>
+            </td>
+            <td class="cursor">
+              <img src="./assets/cursor-disabled.svg" alt="" />
+            </td>
+          </tr>
+
+          <tr>
+            <th id="coluna">LOADING</th>
+            <td>
+              <button class="loading ">
                 <img src="./assets/icon-loading.png" alt="" /> LOADING PRIMARY
               </button>
             </td>
             <td>
-              <button>
+              <button class="secundary loading">
                 <img src="./assets/icon-loading.png" alt="" />LOADING SECONDARY
               </button>
             </td>
             <td>
-              <button>
+              <button class="tertiary loading">
                 <img src="./assets/icon-loading.png" alt="" />LOADING TERTIARY
               </button>
             </td>
-            <td><img src="./assets/cursor-loading.svg" alt="" /></td>
+            <td class="cursor">
+              <img src="./assets/cursor-loading.svg" alt="" />
+            </td>
           </tr>
 
-          <tr>
+          <tr >
+            <th id="coluna" class="last-row " >MOVABLE</th>
             <td>
-              <button>
+              <button class="movable primary-movable last-row ">
                 <img src="./assets/icon-movable.svg" alt="" />MOVABLE PRIMARY
               </button>
             </td>
             <td>
-              <button>
+              <button class="movable secundary last-row ">
                 <img src="./assets/icon-movable.svg" alt="" />MOVABLE SECONDARY
               </button>
             </td>
             <td>
-              <button>
+              <button class="movable tertiary last-row ">
                 <img src="./assets/icon-movable.svg" alt="" />MOVABLE TERTIARY
               </button>
             </td>
-            <td><img src="./assets/cursor-movable.svg" alt="" /></td>
+            <td class=" cursor   ">
+              <img class="last-row " src="./assets/cursor-movable.svg" alt="" />
+            </td>
           </tr>
         </table>
       </main>
@@ -139,12 +152,13 @@
             cursores
           </p>
         </div>
-
-        <button>INTERAJA COMIGO</button>
-        <button>INTERAJA COMIGO</button>
-        <button>
-          <img src="./assets/icon-movable.svg" alt="" />INTERAJA COMIGO
-        </button>
+        <div class="buttons-aside">
+          <button>INTERAJA COMIGO</button>
+          <button>INTERAJA COMIGO</button>
+          <button>
+            <img src="./assets/icon-movable.svg" alt="" />INTERAJA COMIGO
+          </button>
+        </div>
       </aside>
     </div>
   </body>
